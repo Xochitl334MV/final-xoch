@@ -1,0 +1,81 @@
+h1{
+
+    color: rgb(219, 11, 115);
+    text-align: center;
+     text-decoration-line: underline;
+    text-decoration-style: dashed;  
+    -webkit-text-stroke: 3px black;
+    background-image:url(imagenes/img-10.jpg);
+    font-size: 60px;
+
+
+}
+body {
+    background-image: url(imagenes/img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.beautifulgirl {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imageGallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.imageGallery button {
+    border: none;
+    background: none;
+    text-align: center;
+}
+
+.imageGallery img {
+    width: 4%; 
+    max-width: 4%;
+    height: auto; 
+}
+
+.text {
+    font-size: 14px;
+    margin-top: 10px; 
+}
+
+.imageGallery button {
+    border: none;
+    background: none;
+    text-align: center;
+}
+
+.imageGallery img {
+    width: 50%; 
+    max-width: 50%;
+    height: auto;
+}
+
+.text {
+    font-size: 14px;
+    margin-top: 20px; 
+}
+h2{
+    color: rgb(219, 11, 115);
+    text-align: center;
+     text-decoration-line: underline;
+    text-decoration-style: dashed;  
+    -webkit-text-stroke: 2px rgb(253, 253, 253);
+    font-size: 60px;
+}
